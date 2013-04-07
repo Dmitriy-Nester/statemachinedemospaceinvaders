@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SpaceInvaders", "SpaceInvaders\SpaceInvaders.vcproj", "{7C6E53F9-1479-45F8-8393-4AA52B752044}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7C6E53F9-1479-45F8-8393-4AA52B752044}.Debug|Win32.ActiveCfg = Debug|Win32
+		{7C6E53F9-1479-45F8-8393-4AA52B752044}.Debug|Win32.Build.0 = Debug|Win32
+		{7C6E53F9-1479-45F8-8393-4AA52B752044}.Release|Win32.ActiveCfg = Release|Win32
+		{7C6E53F9-1479-45F8-8393-4AA52B752044}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
