@@ -197,6 +197,10 @@
 				>
 			</File>
 			<File
+				RelativePath=".\PauseState.cpp"
+				>
+			</File>
+			<File
 				RelativePath=".\ResultState.cpp"
 				>
 			</File>
@@ -256,6 +260,10 @@
 			</File>
 			<File
 				RelativePath=".\MenuIrrState.h"
+				>
+			</File>
+			<File
+				RelativePath=".\PauseState.hpp"
 				>
 			</File>
 			<File
