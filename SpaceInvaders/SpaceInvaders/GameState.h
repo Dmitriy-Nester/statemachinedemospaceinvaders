@@ -24,9 +24,7 @@ class GameState:public StateMachine::_state
 			private:
 				bool OnEvent(const SEvent&);
 				void (*BackToMenu)(GameState*);
-				void (*SwitchPause)(void*);
 				GameState* BTM;				 
-				void *SP;
 		};
 		void SwitchToRezultScreen(bool);
 	private:
@@ -41,5 +39,6 @@ class GameState:public StateMachine::_state
 		_bgunit* GamerUnit;		
 		unsigned int now, then;
 		ActionManager* Manager;
+		_state* pauseState;
 };
 #endif

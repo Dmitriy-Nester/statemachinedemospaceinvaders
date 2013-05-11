@@ -6,6 +6,7 @@ using namespace irr;
 #include "AtlasCutter.hpp"
 #include "Fighter.h"
 #include "ResultState.h"
+#include "PauseState.hpp"
 
 GameState::GameState(irr::IrrlichtDevice *d):device(d)
 {
@@ -21,6 +22,7 @@ GameState::GameState(irr::IrrlichtDevice *d):device(d)
 	Manager->setDestroyAnimators(Cutter.getExploseAnimator1(), Cutter.getExploseAnimator2());
 	Manager->SetRocketExploseAnimator(Cutter.getRocketExploseAnimator());
 	this->GamerUnit = fighter;
+	pauseState = new PauseState(d);
 }
 
 bool GameState::MayUpdate()
@@ -91,6 +93,9 @@ bool GameState::GameEventReceiver::OnEvent(const SEvent& _event)
 			case KEY_KEY_A:
 				BTM->GamerUnit->MoveLeft();
 				break;
+			case KEY_PAUSE:
+				BTM->_Machine->PushState(BTM->pauseState);
+				break;
 		}
 	}
 	return 0;
@@ -106,6 +111,7 @@ GameState::~GameState()
 {
 	delete GamerUnit;
 	delete Manager;
+	delete pauseState;
 	device->setEventReceiver(NULL);
 	smanager->clear();	
 }
