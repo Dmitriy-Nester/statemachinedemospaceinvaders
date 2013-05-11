@@ -4,15 +4,8 @@
 #ifndef __IRRLICHT_H_INCLUDED__
 #error irrlicht.h not include
 #endif
-namespace irr
-{
-	class IrrlichtDevice;
-	namespace video
-	{
-		class IVideoDriver;
-	}
-}
-class PauseState:StateMachine::_state
+
+class PauseState:public StateMachine::_state
 {
 	public:
 		void Update();
@@ -23,5 +16,16 @@ class PauseState:StateMachine::_state
 	private:
 		irr::IrrlichtDevice& device;
 		irr::video::IVideoDriver* driver;
+		irr::scene::ISceneManager* manager;
+		irr::gui::IGUIEnvironment* guienv;
+		irr::gui::IGUIStaticText* PauseMessage;
+		struct PauseReceiver:public irr::IEventReceiver
+		{
+			StateMachine* machine;
+			bool OnEvent(const irr::SEvent&);
+			PauseReceiver(){machine = NULL;}
+			bool keyUP;			
+		};
+		PauseReceiver Receiver;
 };
 #endif
