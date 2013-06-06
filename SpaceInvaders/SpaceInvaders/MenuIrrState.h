@@ -5,7 +5,7 @@
 #endif
 #include <irrlicht.h>
 using namespace irr;
-class MenuIRRState:StateMachine::_state
+class MenuIRRState:public StateMachine::_state
 {
 	public:
 		void Update();

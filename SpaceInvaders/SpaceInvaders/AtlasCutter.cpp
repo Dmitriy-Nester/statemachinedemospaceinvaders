@@ -3,6 +3,10 @@
 using namespace irr;
 #include "Atlascutter.hpp"
 
+#ifndef MSVC
+#define sprintf_s(A,B,C,D) sprintf(A,C,D)
+#endif
+
 AtlasCutter::AtlasCutter(irr::scene::ISceneManager *smangr):Atlas(smangr->getVideoDriver()->getTexture("particle_atlas_additive.tga"))
 {
 	video::IVideoDriver *driver = smangr->getVideoDriver();
