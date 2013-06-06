@@ -1,0 +1,326 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A7B655C6175F63C300281480 /* MenuIrrState.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A7B655C5175F63C300281480 /* MenuIrrState.cpp */; };
+		A7B655C8175F63E600281480 /* StateMachine.cxx in Sources */ = {isa = PBXBuildFile; fileRef = A7B655C7175F63E600281480 /* StateMachine.cxx */; };
+		A7B655CA175F649C00281480 /* libIrrlicht.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A7B655C9175F649C00281480 /* libIrrlicht.a */; };
+		A7B655CC175F64D200281480 /* GameState.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A7B655CB175F64D200281480 /* GameState.cpp */; };
+		A7B655CE175F64E500281480 /* AtlasCutter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A7B655CD175F64E500281480 /* AtlasCutter.cpp */; };
+		A7B655D0175F667E00281480 /* ActionManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A7B655CF175F667E00281480 /* ActionManager.cpp */; };
+		A7B655D2175F669A00281480 /* Invader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A7B655D1175F669A00281480 /* Invader.cpp */; };
+		A7B655D4175F66C600281480 /* PauseState.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A7B655D3175F66C600281480 /* PauseState.cpp */; };
+		A7B655D6175F66DC00281480 /* ResultState.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A7B655D5175F66DC00281480 /* ResultState.cpp */; };
+		A7B655D8175F66F200281480 /* Rocket.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A7B655D7175F66F200281480 /* Rocket.cpp */; };
+		A7B655DA175F670400281480 /* Fighter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A7B655D9175F670400281480 /* Fighter.cpp */; };
+		A7B655E0175F693200281480 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7B655DF175F693200281480 /* OpenGL.framework */; };
+		A7B655E2175F695100281480 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7B655E1175F695100281480 /* Cocoa.framework */; };
+		A7B655E4175F696400281480 /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7B655E3175F696400281480 /* Carbon.framework */; };
+		A7B655E6175F697200281480 /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7B655E5175F697200281480 /* IOKit.framework */; };
+		A7B655EC175F6FD100281480 /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7B655EB175F6FD100281480 /* AppKit.framework */; };
+		A7FA4D0D1757880B00165A58 /* SpaceInvaders.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = A7FA4D0C1757880B00165A58 /* SpaceInvaders.1 */; };
+		A7FA4D111757882100165A58 /* SpaceInvaders.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A7FA4D021757873800165A58 /* SpaceInvaders.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		A7FA4D051757880A00165A58 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = usr/share/man/man1;
+			dstSubfolderSpec = 16;
+			files = (
+				A7FA4D0D1757880B00165A58 /* SpaceInvaders.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		A7B655C5175F63C300281480 /* MenuIrrState.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = MenuIrrState.cpp; path = ../MenuIrrState.cpp; sourceTree = "<group>"; };
+		A7B655C7175F63E600281480 /* StateMachine.cxx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = StateMachine.cxx; path = ../StateMachine.cxx; sourceTree = "<group>"; };
+		A7B655C9175F649C00281480 /* libIrrlicht.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libIrrlicht.a; sourceTree = "<group>"; };
+		A7B655CB175F64D200281480 /* GameState.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = GameState.cpp; path = ../GameState.cpp; sourceTree = "<group>"; };
+		A7B655CD175F64E500281480 /* AtlasCutter.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = AtlasCutter.cpp; path = ../AtlasCutter.cpp; sourceTree = "<group>"; };
+		A7B655CF175F667E00281480 /* ActionManager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ActionManager.cpp; path = ../ActionManager.cpp; sourceTree = "<group>"; };
+		A7B655D1175F669A00281480 /* Invader.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Invader.cpp; path = ../Invader.cpp; sourceTree = "<group>"; };
+		A7B655D3175F66C600281480 /* PauseState.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = PauseState.cpp; path = ../PauseState.cpp; sourceTree = "<group>"; };
+		A7B655D5175F66DC00281480 /* ResultState.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ResultState.cpp; path = ../ResultState.cpp; sourceTree = "<group>"; };
+		A7B655D7175F66F200281480 /* Rocket.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Rocket.cpp; path = ../Rocket.cpp; sourceTree = "<group>"; };
+		A7B655D9175F670400281480 /* Fighter.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Fighter.cpp; path = ../Fighter.cpp; sourceTree = "<group>"; };
+		A7B655DB175F68D800281480 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		A7B655DD175F68F400281480 /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks/GLKit.framework; sourceTree = DEVELOPER_DIR; };
+		A7B655DF175F693200281480 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks/OpenGL.framework; sourceTree = DEVELOPER_DIR; };
+		A7B655E1175F695100281480 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks/Cocoa.framework; sourceTree = DEVELOPER_DIR; };
+		A7B655E3175F696400281480 /* Carbon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Carbon.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks/Carbon.framework; sourceTree = DEVELOPER_DIR; };
+		A7B655E5175F697200281480 /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks/IOKit.framework; sourceTree = DEVELOPER_DIR; };
+		A7B655EB175F6FD100281480 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = ../../../../../../../../../System/Library/Frameworks/AppKit.framework; sourceTree = "<group>"; };
+		A7FA4D021757873800165A58 /* SpaceInvaders.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = SpaceInvaders.cpp; path = ../SpaceInvaders.cpp; sourceTree = "<group>"; };
+		A7FA4D071757880A00165A58 /* SpaceInvaders */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = SpaceInvaders; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7FA4D0C1757880B00165A58 /* SpaceInvaders.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = SpaceInvaders.1; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A7FA4D041757880A00165A58 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7B655EC175F6FD100281480 /* AppKit.framework in Frameworks */,
+				A7B655E6175F697200281480 /* IOKit.framework in Frameworks */,
+				A7B655E4175F696400281480 /* Carbon.framework in Frameworks */,
+				A7B655E2175F695100281480 /* Cocoa.framework in Frameworks */,
+				A7B655E0175F693200281480 /* OpenGL.framework in Frameworks */,
+				A7B655CA175F649C00281480 /* libIrrlicht.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A7FA4CFB1757871700165A58 = {
+			isa = PBXGroup;
+			children = (
+				A7B655EB175F6FD100281480 /* AppKit.framework */,
+				A7B655E5175F697200281480 /* IOKit.framework */,
+				A7B655E3175F696400281480 /* Carbon.framework */,
+				A7B655E1175F695100281480 /* Cocoa.framework */,
+				A7B655DF175F693200281480 /* OpenGL.framework */,
+				A7B655DD175F68F400281480 /* GLKit.framework */,
+				A7B655DB175F68D800281480 /* Foundation.framework */,
+				A7B655D9175F670400281480 /* Fighter.cpp */,
+				A7B655D7175F66F200281480 /* Rocket.cpp */,
+				A7B655D5175F66DC00281480 /* ResultState.cpp */,
+				A7B655D3175F66C600281480 /* PauseState.cpp */,
+				A7B655D1175F669A00281480 /* Invader.cpp */,
+				A7B655CF175F667E00281480 /* ActionManager.cpp */,
+				A7B655CD175F64E500281480 /* AtlasCutter.cpp */,
+				A7B655CB175F64D200281480 /* GameState.cpp */,
+				A7B655C9175F649C00281480 /* libIrrlicht.a */,
+				A7B655C7175F63E600281480 /* StateMachine.cxx */,
+				A7B655C5175F63C300281480 /* MenuIrrState.cpp */,
+				A7FA4D021757873800165A58 /* SpaceInvaders.cpp */,
+				A7FA4D091757880B00165A58 /* SpaceInvaders */,
+				A7FA4D081757880A00165A58 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A7FA4D081757880A00165A58 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A7FA4D071757880A00165A58 /* SpaceInvaders */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A7FA4D091757880B00165A58 /* SpaceInvaders */ = {
+			isa = PBXGroup;
+			children = (
+				A7FA4D0C1757880B00165A58 /* SpaceInvaders.1 */,
+			);
+			path = SpaceInvaders;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A7FA4D061757880A00165A58 /* SpaceInvaders */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A7FA4D0E1757880B00165A58 /* Build configuration list for PBXNativeTarget "SpaceInvaders" */;
+			buildPhases = (
+				A7FA4D031757880A00165A58 /* Sources */,
+				A7FA4D041757880A00165A58 /* Frameworks */,
+				A7FA4D051757880A00165A58 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SpaceInvaders;
+			productName = SpaceInvaders;
+			productReference = A7FA4D071757880A00165A58 /* SpaceInvaders */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A7FA4CFC1757871700165A58 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+			};
+			buildConfigurationList = A7FA4CFF1757871700165A58 /* Build configuration list for PBXProject "InvadersMacPort" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A7FA4CFB1757871700165A58;
+			productRefGroup = A7FA4D081757880A00165A58 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A7FA4D061757880A00165A58 /* SpaceInvaders */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A7FA4D031757880A00165A58 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7FA4D111757882100165A58 /* SpaceInvaders.cpp in Sources */,
+				A7B655C6175F63C300281480 /* MenuIrrState.cpp in Sources */,
+				A7B655C8175F63E600281480 /* StateMachine.cxx in Sources */,
+				A7B655CC175F64D200281480 /* GameState.cpp in Sources */,
+				A7B655CE175F64E500281480 /* AtlasCutter.cpp in Sources */,
+				A7B655D0175F667E00281480 /* ActionManager.cpp in Sources */,
+				A7B655D2175F669A00281480 /* Invader.cpp in Sources */,
+				A7B655D4175F66C600281480 /* PauseState.cpp in Sources */,
+				A7B655D6175F66DC00281480 /* ResultState.cpp in Sources */,
+				A7B655D8175F66F200281480 /* Rocket.cpp in Sources */,
+				A7B655DA175F670400281480 /* Fighter.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		A7FA4D001757871700165A58 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				HEADER_SEARCH_PATHS = "\"$(SRCROOT)/../../../../irrlicht-1.7.3/include\"";
+			};
+			name = Debug;
+		};
+		A7FA4D011757871700165A58 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				HEADER_SEARCH_PATHS = "\"$(SRCROOT)/../../../../irrlicht-1.7.3/include\"";
+			};
+			name = Release;
+		};
+		A7FA4D0F1757880B00165A58 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = (
+					ppc,
+					i386,
+				);
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libstdc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = "";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INSTALL_PATH = ../../macbin;
+				LD_MAP_FILE_PATH = ../../macbin;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = (
+					"-stdlib=libstdc++",
+					"-objc",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = "";
+				SYMROOT = ../../macbin;
+				VALID_ARCHS = "x86_64 i386";
+			};
+			name = Debug;
+		};
+		A7FA4D101757880B00165A58 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = (
+					ppc,
+					i386,
+				);
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libstdc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = "";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INSTALL_PATH = ../../macbin;
+				LD_MAP_FILE_PATH = ../../macbin;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = (
+					"-stdlib=libstdc++",
+					"-objc",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = "";
+				SYMROOT = ../../macbin;
+				VALID_ARCHS = "x86_64 i386";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A7FA4CFF1757871700165A58 /* Build configuration list for PBXProject "InvadersMacPort" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7FA4D001757871700165A58 /* Debug */,
+				A7FA4D011757871700165A58 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A7FA4D0E1757880B00165A58 /* Build configuration list for PBXNativeTarget "SpaceInvaders" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7FA4D0F1757880B00165A58 /* Debug */,
+				A7FA4D101757880B00165A58 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A7FA4CFC1757871700165A58 /* Project object */;
+}

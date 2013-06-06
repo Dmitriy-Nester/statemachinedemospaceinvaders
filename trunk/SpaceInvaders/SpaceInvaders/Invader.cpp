@@ -1,4 +1,4 @@
-#include <STDAFX.H>
+#include "STDAFX.H"
 #include <irrlicht.h>
 using namespace irr;
 #include "invader.h"
