@@ -3,7 +3,7 @@
 using namespace irr;
 #include "Atlascutter.hpp"
 
-#ifndef MSVC
+#ifndef _MSC_VER
 #define sprintf_s(A,B,C,D) sprintf(A,C,D)
 #endif
 
